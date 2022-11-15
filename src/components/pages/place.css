@@ -68,6 +68,15 @@
   .grid-item {
     width: 90%;
   }
+
+  .location {
+    font-size: 14px;
+    gap: 54px;
+  }
+
+  .location-items {
+    gap: 36px;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -76,7 +85,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 912px) {
   .location {
     margin: 50px 0;
   }

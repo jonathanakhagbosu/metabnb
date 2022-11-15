@@ -73,3 +73,13 @@ hr {
     width: 95%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .wallet {
+    font-size: 14px;
+  }
+
+  .wallet-img {
+    width: 20px;
+  }
+}

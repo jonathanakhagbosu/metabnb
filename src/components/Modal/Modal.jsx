@@ -23,14 +23,18 @@ const Modal = (props) => {
             <p>Choose your preferred wallet:</p>
             <div className="wallet">
               <div className="wallet_details">
-                <img src={wallet1} alt="metamask" />
+                <img src={wallet1} alt="metamask" className="wallet-img" />
                 <h3>Metamask</h3>
               </div>
               <img src={arrow_out} alt="arrow_out" />
             </div>
             <div className="wallet">
               <div className="wallet_details">
-                <img src={wallet2} alt="wallet connect" />
+                <img
+                  src={wallet2}
+                  alt="wallet connect"
+                  className="wallet-img"
+                />
                 <h3>WalletConnect</h3>
               </div>
               <img src={arrow_out} alt="arrow_out" />
