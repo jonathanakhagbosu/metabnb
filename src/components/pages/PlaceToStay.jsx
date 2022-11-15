@@ -49,7 +49,7 @@ const PlaceToStay = () => {
                   <img src={e.src} alt="card" />
                   <div className="flex-col">
                     <p className="flex">
-                      Desert king{" "}
+                      Desert king
                       <span style={{ fontWeight: 700 }}>1MBT per night</span>
                     </p>
                     <p className="flex">
