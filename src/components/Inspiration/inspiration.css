@@ -1,0 +1,84 @@
+#inspiration-section {
+  margin: 60px 0;
+  width: 100%;
+}
+
+.inspiration-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.inspiration-container h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.inspiration-container p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+}
+
+.grid-item {
+  max-width: 90%;
+  margin: 0 auto;
+  border: 1px solid var(--card-border);
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.stars {
+  width: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-item {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .inspiration-container h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

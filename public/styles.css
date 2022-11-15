@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&family=Sora:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: none;
+}
+
+:root {
+  --text-black: #434343;
+  --white: #ffffff;
+  --gray: #cfd8dc;
+  --mid-gray: #f8f9fa;
+  --border-gray: #a3a3a3;
+  --card-border: rgba(215, 215, 215, 1);
+  --bg-input: rgba(247, 247, 247, 1);
+  --placeholder-color: rgba(184, 184, 184, 1);
+  --gradient-color: rgba(160, 34, 121, 1);
+
+  --container-width-xl: 88%;
+  --container-width-lg: 90%;
+  --container-width-md: 92%;
+  --container-width-sm: 95%;
+}
+
+body {
+  font-family: "Red rose", cursive;
+  font-weight: 400;
+  color: var(--text-black);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  color: var(--white);
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  width: var(--container-width-xl);
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: var(--container-width-md);
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-lg);
+    margin-inline: auto;
+  }
+}
